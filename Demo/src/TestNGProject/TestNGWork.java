@@ -27,6 +27,7 @@ public class TestNGWork {
 		String result = driver.findElement(By.className("page-body")).getText();
 		System.out.println("Registration successful");
 		Assert.assertEquals(result, "Your registration completed"); 
+		
 		driver.quit();
 	}
 	

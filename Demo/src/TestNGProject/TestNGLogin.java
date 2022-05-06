@@ -32,6 +32,7 @@ WebDriver driver;
 	public void logout()
 	{
 		driver.findElement(By.className("ico-logout")).click();
+		
 		driver.quit();
 	}
 	
