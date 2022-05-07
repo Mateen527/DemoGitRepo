@@ -25,7 +25,7 @@ WebDriver driver;
 	public void verifyloginmail() {
 		
 		String account = driver.findElement(By.className("account")).getText();
-		Assert.assertEquals(account, "Mateen.525@gmail.com"); 
+		Assert.assertEquals(account, "Mateen.528@gmail.com"); 
 	}
 	
 	@AfterTest
@@ -38,7 +38,7 @@ WebDriver driver;
 	
 	
 	public void login() {
-		driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("Mateen.525@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("Mateen.528@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("Abcd1234");
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")).click();
 	}
