@@ -33,9 +33,9 @@ public class TestNGWork {
 	
 	public void register() {
 		driver.findElement(By.xpath("//*[@id=\"gender-male\"]")).click();
-		driver.findElement(By.xpath("//*[@id=\"FirstName\"]")).sendKeys("Abdul6");
-		driver.findElement(By.xpath("//*[@id=\"LastName\"]")).sendKeys("Mateen6");
-		driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("Mateen.526@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"FirstName\"]")).sendKeys("Abdul7");
+		driver.findElement(By.xpath("//*[@id=\"LastName\"]")).sendKeys("Mateen7");
+		driver.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("Mateen.525@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("Abcd1234");
 		driver.findElement(By.xpath("//*[@id=\"ConfirmPassword\"]")).sendKeys("Abcd1234");
 		driver.findElement(By.xpath("//*[@id=\"register-button\"]")).click();
